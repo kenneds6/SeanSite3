@@ -98,6 +98,8 @@ textarea {
 body {margin: 0;}
 
 
+
+
 .navbar {
     text-align: center;
     overflow: hidden;
@@ -117,20 +119,29 @@ body {margin: 0;}
     text-decoration: none;
     font-size: 17px;    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+.navbar a:hover{
+    color: grey;
+}
 
 .firstbox {
+    background-color: white;
     text-align: center;
-    background-color: lightblue;
-    padding: 16px;
+    padding-top: 30px;
     margin-top: 30px;
-    height: 1500px;
+    height: 700px;
+
+}
+.seanface {
+    border-radius: 100%;
+    display: inline-block;
+
 }
 
 .aboutMe {
-    background-color: whitesmoke;
+    background-color: lightslategrey;
     padding: 16px;
-    margin-top: 30px;
-    height: 1500px;
+    /*margin-top: 30px;*/
+    height: 700px;
 }
 
 
