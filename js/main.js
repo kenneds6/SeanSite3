@@ -6,5 +6,19 @@ function topFunction() {
 }
 
 function scrollToAbout() {
+    $('body,html').animate({
+        scrollTop: $("#about").offset().top}, 500);
+
+}
+
+function scrollToMyWork() {
+    $('body,html').animate({
+        scrollTop: $("#mywork").offset().top}, 500);
+
+}
+
+function scrollToContact() {
+    $('body,html').animate({
+        scrollTop: $("#contact").offset().top}, 500);
 
 }

@@ -129,6 +129,7 @@ body {margin: 0;}
     padding-top: 30px;
     margin-top: 30px;
     height: 700px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 .seanface {
@@ -139,10 +140,34 @@ body {margin: 0;}
 
 .aboutMe {
     background-color: lightslategrey;
-    padding: 16px;
+    /*padding: 16px;*/
     /*margin-top: 30px;*/
     height: 700px;
 }
+
+
+
+.seanwork {
+    background-color: white;
+    text-align: center;
+
+    /*margin-top: 30px;*/
+    height: 700px;
+
+}
+
+
+.contactMe {
+    display: inline-block;
+
+    background-color: lightslategrey;
+
+    /*margin-top: 30px;*/
+    height: 300px;
+    width: 100%
+}
+
+
 
 
 
