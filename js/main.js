@@ -5,9 +5,10 @@ function topFunction() {
 
 }
 
+
 function scrollToAbout() {
     $('body,html').animate({
-        scrollTop: $("#about").offset().top}, 500);
+        scrollTop: $("#about").offset().top} , 500);
 
 }
 
